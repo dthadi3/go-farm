@@ -1,7 +1,9 @@
 language: go
 
 sudo: false
-
+arch:
+    - AMD64
+    - ppc64le
 branches:
   except:
     - release
